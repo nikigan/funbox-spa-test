@@ -1,0 +1,7 @@
+/*
+ * {{= it.component.name }} {{= it.settings.cssType || 'css'}} File
+*/
+
+.{{=it.component.name.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase() }} {
+    /* propertys here */
+}

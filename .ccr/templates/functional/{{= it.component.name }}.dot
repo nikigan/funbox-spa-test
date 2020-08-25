@@ -1,0 +1,8 @@
+import React from 'react';
+{{? it.settings.css }}import './{{= it.component.name }}.{{= it.settings.cssType || 'css'}}';{{?}}
+
+const {{= it.component.name}} = () => {
+  return (<div className="{{=it.component.name.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()}}"></div>);
+};
+
+export default {{= it.component.name}};

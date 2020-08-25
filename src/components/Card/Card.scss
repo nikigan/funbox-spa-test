@@ -1,0 +1,19 @@
+/*
+ * Card scss File
+*/
+
+.card {
+    /* propertys here */
+  background: #f2f2f2;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+
+  &__image {
+    position: absolute;
+    width: 370px;
+    bottom: -100px;
+    left: -50px;
+  }
+}
