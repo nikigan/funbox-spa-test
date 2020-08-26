@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React, { useState } from "react";
 import "./Card.scss";
 import classNames from "classnames";
@@ -10,7 +11,6 @@ const Card = ({
   descriptionText,
   weight,
   available,
-  unavailableText,
 }) => {
   const [selected, setSelected] = useState(false);
   const [hovered, setHovered] = useState(false);
@@ -77,3 +77,21 @@ const Card = ({
 };
 
 export default Card;
+
+Card.propTypes = {
+  available: PropTypes.bool,
+  descriptionText: PropTypes.string,
+  fillingDescription: PropTypes.string,
+  fillingText: PropTypes.string,
+  name: PropTypes.string,
+  weight: PropTypes.string,
+};
+
+Card.defaultProps = {
+  available: true,
+  descriptionText: "",
+  fillingDescription: "",
+  fillingText: "",
+  name: "Нямушка",
+  weight: "0,5",
+};
