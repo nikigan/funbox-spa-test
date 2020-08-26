@@ -5,7 +5,9 @@ import Cards from "../Cards";
 const App = () => {
   return (
     <div className="app">
-      <Cards />
+      <div className="container">
+        <Cards />
+      </div>
     </div>
   );
 };

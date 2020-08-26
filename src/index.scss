@@ -1,8 +1,15 @@
+@import "~@csstools/normalize.css/normalize.css";
+@import "~bootstrap/scss/bootstrap-grid";
 body {
   margin: 0;
   font-family: "Trebuchet MS", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+button {
+  outline: none;
 }
 
 code {
