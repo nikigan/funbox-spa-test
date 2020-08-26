@@ -2,7 +2,8 @@ import PropTypes from "prop-types";
 import React, { useState } from "react";
 import "./Card.scss";
 import classNames from "classnames";
-import background from "../../assets/images/Back@2x.png";
+import background from "../../assets/images/Back.png";
+import background2x from "../../assets/images/Back@2x.png";
 
 const Card = ({
   name,
@@ -42,14 +43,19 @@ const Card = ({
   );
 
   return (
-    <div className="col-lg-4 col-md-6 mb-4">
+    <div className="col-lg-4 col-md-6 mb-5">
       <div
         className={cardClass}
         onClick={handleClick}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
-        <img src={background} alt="" className="card__background-image" />
+        <img
+          src={background}
+          srcSet={`${background2x} 2x`}
+          alt=""
+          className="card__background-image"
+        />
         <div className="card__desc-block">
           <span className="card__pre-header">Сказочное заморское яство</span>
           <h3 className="card__header">{name}</h3>

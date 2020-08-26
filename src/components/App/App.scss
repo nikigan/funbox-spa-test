@@ -1,12 +1,28 @@
+@font-face {
+  font-family: "Exo 2.0";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Exo 2.0"), url("../../../src/assets/fonts/Exo2.0-Thin.otf") format("opentype");
+}
+
 .app {
   min-height: 100vh;
   width: 100%;
   padding: 50px 0;
-  background: url("../../assets/images/Shadow@2x.png") center no-repeat;
-  background-size: cover;
+  background: url("../../assets/images/Shadow.png") center center;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  &__header {
+    font-family: "Exo 2.0", serif;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
 }
 
 .link-button {
