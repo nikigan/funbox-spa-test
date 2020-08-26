@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0780b0ccb0ac64cdaf7d0ec6ed57d58",
+    "revision": "ef39c6fe19e4e989e970f39b683f037a",
     "url": "/funbox-spa-test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox-spa-test/static/css/2.ed42d1b7.chunk.css"
   },
   {
-    "revision": "ebd62247b3f6a00b46ea",
-    "url": "/funbox-spa-test/static/css/main.d9ad4886.chunk.css"
+    "revision": "5ff164b5b9cc4189da18",
+    "url": "/funbox-spa-test/static/css/main.daf505d0.chunk.css"
   },
   {
     "revision": "3eab4f5e059136615d98",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox-spa-test/static/js/2.9a0ac437.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ebd62247b3f6a00b46ea",
+    "revision": "5ff164b5b9cc4189da18",
     "url": "/funbox-spa-test/static/js/main.f5e6d1e3.chunk.js"
   },
   {
