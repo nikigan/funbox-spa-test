@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/funbox-spa-test/static/css/main.e5b379c7.chunk.css",
-    "main.js": "/funbox-spa-test/static/js/main.41aa6068.chunk.js",
-    "main.js.map": "/funbox-spa-test/static/js/main.41aa6068.chunk.js.map",
+    "main.css": "/funbox-spa-test/static/css/main.d9ad4886.chunk.css",
+    "main.js": "/funbox-spa-test/static/js/main.f5e6d1e3.chunk.js",
+    "main.js.map": "/funbox-spa-test/static/js/main.f5e6d1e3.chunk.js.map",
     "runtime-main.js": "/funbox-spa-test/static/js/runtime-main.32125ce3.js",
     "runtime-main.js.map": "/funbox-spa-test/static/js/runtime-main.32125ce3.js.map",
     "static/css/2.ed42d1b7.chunk.css": "/funbox-spa-test/static/css/2.ed42d1b7.chunk.css",
-    "static/js/2.9d449bbf.chunk.js": "/funbox-spa-test/static/js/2.9d449bbf.chunk.js",
-    "static/js/2.9d449bbf.chunk.js.map": "/funbox-spa-test/static/js/2.9d449bbf.chunk.js.map",
+    "static/js/2.9a0ac437.chunk.js": "/funbox-spa-test/static/js/2.9a0ac437.chunk.js",
+    "static/js/2.9a0ac437.chunk.js.map": "/funbox-spa-test/static/js/2.9a0ac437.chunk.js.map",
     "index.html": "/funbox-spa-test/index.html",
-    "precache-manifest.32ae156b130ce4093033268fa6ba4e28.js": "/funbox-spa-test/precache-manifest.32ae156b130ce4093033268fa6ba4e28.js",
+    "precache-manifest.6996fd7ce53d7c13b580651d60953b48.js": "/funbox-spa-test/precache-manifest.6996fd7ce53d7c13b580651d60953b48.js",
     "service-worker.js": "/funbox-spa-test/service-worker.js",
     "static/css/2.ed42d1b7.chunk.css.map": "/funbox-spa-test/static/css/2.ed42d1b7.chunk.css.map",
-    "static/css/main.e5b379c7.chunk.css.map": "/funbox-spa-test/static/css/main.e5b379c7.chunk.css.map",
-    "static/js/2.9d449bbf.chunk.js.LICENSE.txt": "/funbox-spa-test/static/js/2.9d449bbf.chunk.js.LICENSE.txt",
+    "static/css/main.d9ad4886.chunk.css.map": "/funbox-spa-test/static/css/main.d9ad4886.chunk.css.map",
+    "static/js/2.9a0ac437.chunk.js.LICENSE.txt": "/funbox-spa-test/static/js/2.9a0ac437.chunk.js.LICENSE.txt",
+    "static/media/Back.png": "/funbox-spa-test/static/media/Back.d978a2c0.png",
     "static/media/Back@2x.png": "/funbox-spa-test/static/media/Back@2x.f0e2ec07.png",
-    "static/media/App.scss": "/funbox-spa-test/static/media/Shadow@2x.78db1df1.png"
+    "static/media/App.scss": "/funbox-spa-test/static/media/Shadow.f7e2764a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.32125ce3.js",
     "static/css/2.ed42d1b7.chunk.css",
-    "static/js/2.9d449bbf.chunk.js",
-    "static/css/main.e5b379c7.chunk.css",
-    "static/js/main.41aa6068.chunk.js"
+    "static/js/2.9a0ac437.chunk.js",
+    "static/css/main.d9ad4886.chunk.css",
+    "static/js/main.f5e6d1e3.chunk.js"
   ]
 }
